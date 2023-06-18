@@ -1,0 +1,295 @@
+*
+{
+    margin: 0px;
+    /* padding: 0px; */
+    box-sizing: border-box;
+}
+#nav
+{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgb(223, 214, 214);
+    justify-content: center;
+    display: flex;
+    position: fixed;
+    top: 0px;
+}
+#nav>div.logo>img
+{
+margin-top: 22px;
+margin-left: 30px;
+height: 36px;
+width: 65px;
+}
+#nav>div.logo
+{
+    height: 80px;
+    width: 10%;
+}
+#nav>div.menu
+{
+    height: 80px;
+    width: 37%;
+}
+li
+{
+    padding: 16px;
+    justify-items: center;    
+    letter-spacing: normal;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+ol
+{
+    display: flex;
+    list-style: none;
+    margin-top: 17px;
+    margin-left: -47px;
+}
+#nav>div.search
+{
+    height: 80px;
+    width: 35%;
+}
+#nav>div.icon
+{
+    height: 80px;
+    width: 15%;
+    padding-left: 40px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+.search
+{ 
+    padding-top: 20px;
+}
+.searchbox
+{
+    background-color: rgb(245,245,246);
+    padding: 8px;
+    border-radius: 4px;
+}
+.searchbox>:focus
+{
+        outline: none;
+}
+.srch{
+    outline: none;
+    border: none;
+    background-color: rgb(245,245,246);
+}
+#slider
+{
+    width: 100%;
+    height: 500px;
+    margin-top: 45px;
+    display: flex;
+}
+#about
+{
+    height: 100px;
+    width: 80%;
+    margin-top: 70px;
+    margin-left: 100px;
+    font-family: 'Comic Sans MS', Courier, monospace;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-weight: bold;
+    font-size: 22px;
+}
+#about
+{
+ height: 100%;
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ background-color: rgb(245,245,247);
+margin-left: 0px;
+}
+#ban1
+{
+    width: 50%;
+    height: 150px;
+    display: flex;
+}
+#ban2
+{
+    margin-top: -90px;
+    width: 100%;
+    height: 150px;
+    display: flex;
+}
+#ban3
+{
+    margin-top: -70px;
+    width: 100%;
+    height: 120px;
+    display: flex;
+}
+
+#Headingimage-1
+{
+    height: 199px;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    
+}
+#Headingimage-1>img
+{
+    height: 94.9%;   
+}
+
+#Headingimage-2
+{
+    height: 213.2px;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    
+}
+#Headingimage-2>img
+{
+    height: 94.9%;   
+}
+
+#Headingimage-3
+{
+    height: 220px;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    
+}
+#Headingimage-3>img
+{
+    height: 29.7vh;   
+}
+
+#Headingimage-4
+{
+    height: 325px;
+    width: 100%;
+    display: flex;
+    margin-left: 0px;
+    
+}
+#Headingimage-4>img
+{
+    height: 44vh;   
+}
+#footer
+{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(250,251,252);
+    display: flex;
+    justify-content: center;  
+    
+}
+#f-article
+{
+    display: flex;
+    width: 80%;
+    height: 500px;
+    
+}
+.list1 a
+{
+    text-decoration:none;
+    color: rgb(105,107,121);    
+    font-size: 14px;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.onlineshop
+{
+    height: 400px;   
+    width: 14%;
+    background-color: rgb(250,251,252);
+    margin: 18px;
+}
+
+.list1
+{
+    display: list-item;
+    display: block;
+    border: none;
+    margin: 0px;
+    color: rgb(105,107,121);    
+}
+.list2
+{
+    border: none;
+    margin: 0px;
+    margin-left: 50px;
+}
+.list3
+{
+    border: none;
+    margin: 0px;
+    margin-left: 50px;
+}
+
+#applink
+{
+    
+    display: flex;
+    border: none;
+    margin: 0px;
+    color: rgb(105,107,121);    
+}
+
+.F1
+{
+    color: rgb(105,107,121);    
+    padding: 2px;
+    font-size: 15px;
+    margin-top: -1px;
+}
+.F2 i 
+{
+        
+    margin-left: -11px;
+    font-size: 15px;
+    padding: 0px;
+    width: 40px;
+    
+}
+.custpolicy
+{
+    margin: 18px;
+    height: 500px;   
+    width: 15%;
+    color: rgb(105,107,121);    
+    padding: 0px;
+    
+}
+.exp
+{
+    height: 500px;   
+    width: 25%;
+    color: rgb(105,107,121);    
+    margin: 18px;
+}
+.original
+{
+    height: 500px;   
+    width: 35%;
+    margin-top: 30px;
+  
+}
+.POPULARSEARCHES
+{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(250,251,252);
+}
+.footer3
+{
+    height: 500px;
+    width: 79%;
+    margin-left: 210px;
+    background-color:rgb(250,251,252);
+}
